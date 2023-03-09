@@ -2,10 +2,10 @@
 H = int(input())
 M = int(input())
 
-timer = int(input()) 
+time = int(input()) 
 
-H += timer // 60 #몫
-M += timer % 60 #나머지
+H += time // 60 #몫
+M += time % 60 #나머지
 
 if M >= 60:
     H += 1
